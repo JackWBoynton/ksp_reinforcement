@@ -1,0 +1,22 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'ac.py'
+ outputting to 'two_ac.py'
+--------------------------------------------------------------------------------
+
+43:27: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+47:21: INFO: Added keywords to args of function 'tf.gradients'
+50:18: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+60:22: INFO: Added keywords to args of function 'tf.gradients'
+64:16: INFO: Renamed 'tf.initialize_all_variables' to 'tf.compat.v1.initialize_all_variables'
+175:8: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+--------------------------------------------------------------------------------
+
